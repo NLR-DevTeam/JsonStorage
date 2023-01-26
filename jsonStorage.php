@@ -4,6 +4,7 @@
 // 方块盒子 Json-Storage
 // Alpha v0.0.1
 // 23w01a
+// In GitHub NLR-DevTeam
 
 $Setting = array(
     "confirmPassword" => "abc111222333", //尽量不要设置默认值，进行重要操作时需要的密码（例如：删除数据库）

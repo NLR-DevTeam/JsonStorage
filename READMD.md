@@ -23,7 +23,7 @@ $jsonStorage = new jsonStorage_Main();
 ```
 ### 我们提供了以下功能：
 #### 1.创建一个新的数据库：
-使用我们的工具来创建数据库
+使用我们的工具来创建数据库：
 ```
 $jsonStorage->createTable($name, $description, $content, $token);
 ```
@@ -32,7 +32,7 @@ $jsonStorage->createTable($name, $description, $content, $token);
 如果成功创建，此函数会返回 ```{"Status": "OK"}```
 
 #### 2.删除数据库：
-使用我们的工具来删除数据库
+使用我们的工具来删除数据库：
 ```
 $jsonStorage->deleteTable($name, $token, $password);
 ```
