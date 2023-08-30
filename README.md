@@ -17,7 +17,7 @@ require("{$_SERVER['DOCUMENT_ROOT']}/{ToolPath}/jsonStorage.php");
 $jsonStorage_Initialzation = new Check();
 $jsonStorage_Initialzation->Initialzation_Check();
 ```
-至此，您就完成了对于程序的基本初始化，下一步，您需要初始化主进程：
+至此，您就完成了对于程序的基本初始化，下一步，您需要初始化主程序：
 ```
 $jsonStorage = new jsonStorage_Main();
 ```
